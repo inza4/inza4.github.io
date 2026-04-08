@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-08T15:10:52+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">inza4’s website</title><entry><title type="html">My homelab journey</title><link href="http://localhost:4000/homelab/2026/04/08/homelab-setup.html" rel="alternate" type="text/html" title="My homelab journey" /><published>2026-04-08T11:16:56+02:00</published><updated>2026-04-08T11:16:56+02:00</updated><id>http://localhost:4000/homelab/2026/04/08/homelab-setup</id><content type="html" xml:base="http://localhost:4000/homelab/2026/04/08/homelab-setup.html"><![CDATA[<p>I was watching YouTube in my <del>smart</del> TV and after the n<sup>th</sup> ad, I decided it was enough. There has to be a better way. I started researching and found a solution: a Raspberry Pi running Kodi with a <a href="https://github.com/anxdpanic/plugin.video.youtube/releases">youtube plugin</a>.</p>
+
+<p>It worked like a charm. Life was good now. Then I realized that I can get more from that little computer, so I installed docker on it. Stack after stack, I ended up with jellyfin as a music service, vaultwarden for password management and wireguard as VPN. Then I started playing with Ansible to maintain my homelab and restore it in case of failure.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><a href="/assets/images/blursed_server.jpg"><img src="/assets/images/blursed_server.jpg" alt="Image" width="300" /></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><em>My first server in 2008, a VIA EPIA LT running Linux</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This is of course not how my journey really started. In my late teens my passion for Linux and servers was already there, after trying different distributions, I successfully made a SUSE Linux connect to the internet dialing my 256 Kbps ADSL modem. In 2008 I got my hands on a <a href="https://cdn.viaembedded.com/eol_products/docs/epia-lt/datasheet/VIA+EPIA+LT_datasheet_v120508.pdf">VIA EPIA LT</a> where I setup a Linux server, I don’t remember which one but probably Debian.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><a href="/assets/images/server_rack.jpg"><img src="/assets/images/server_rack.jpg" alt="Image" width="300" /></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><em>My current homelab: Dell Optiplex 5070 micro and a Raspberry Pi 5 (not in the picture)</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Fast forward to September 2025, I found a second hand Dell Optiplex 5070 micro and decided to level up my setup. I installed Proxmox, instantiated a VM with OPNSense as router, learned about VLANs and with the help of some managed switches I started a new chapter in my homelab hobby. With the help of some friends, I 3d printed a nice <a href="https://www.printables.com/model/1210194-mini-rack-10-server-rack-for-navepoint-or-gator-ra">10 inches rack</a> to organize it.</p>
+
+<p>In future posts I will give more technical details of my infrastructure, for those who are interested in the details.</p>]]></content><author><name></name></author><category term="homelab" /><summary type="html"><![CDATA[I was watching YouTube in my smart TV and after the nth ad, I decided it was enough. There has to be a better way. I started researching and found a solution: a Raspberry Pi running Kodi with a youtube plugin.]]></summary></entry></feed>
